@@ -1,19 +1,16 @@
 text = "Python-разработчик учится использовать стандартную библиотеку."
 num = [2, 5, 8, 3, 2, 8, 10]
 
-# Работа со строками
 count_word = text.count('библиотеку')
 first_index = text.find('Python')
 starts_with_word = text.startswith('Python')
 replace_word = text.replace('стандартную', 'встроенную')
 
-# Работа с числами
 sum_num = sum(num)
 max_num = max(num)
 count_num = num.count(8)
-unique_num = set(num)  # сохраняем уникальные числа в отдельной переменной
+unique_num = set(num)
 
-# Запись результатов в файл
 with open('results.txt', 'w', encoding='utf-8') as f:
     f.write(f"Текст: {text}\n")
     f.write(f"Слово 'библиотеку' встречается: {count_word} раз\n")
