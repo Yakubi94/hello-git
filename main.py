@@ -36,4 +36,3 @@ print(f"Сумма чисел: {sum_num}")
 print(f"Максимум: {max_num}")
 print(f"Число 8 встречается: {count_num} раз")
 print(f"Уникальные числа: {unique_num}")
-
