@@ -1,0 +1,17 @@
+Subject: [PATCH] коммит
+---
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+--- a/main.py	(revision e34d3a8abcced845f66f01ab600fd08f35e448f3)
++++ b/main.py	(revision ca78f014efa40e303053b2170112e34d9b9e3fc8)
+@@ -36,6 +36,3 @@
+ print(f"Максимум: {max_num}")
+ print(f"Число 8 встречается: {count_num} раз")
+ print(f"Уникальные числа: {unique_num}")
+-
+-import os
+-print(os.getcwd())  # покажет, где Python пытается создать файл
